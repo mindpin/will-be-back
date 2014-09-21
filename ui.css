@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body {
+  background: #2F353C;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  font-family: "Segoe UI", "Helvetica Neue", "Helvetica", "Arial", "sans-serif", "微软雅黑"; }
+  body p {
+    margin: 0;
+    margin-bottom: 20px; }
+  body a {
+    color: #a2c3fa;
+    text-decoration: none;
+    border-bottom: dashed 1px rgba(255, 255, 255, 0.5); }
+
+.notice {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  width: 600px;
+  margin-left: -300px; }
+  .notice p:last-child {
+    margin-bottom: 0; }
+  .notice .logo {
+    background: url(logo.png);
+    width: 245px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-left: 13px;
+    opacity: 0.8; }
+  .notice .text {
+    line-height: 24px;
+    background-color: #3f4951;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    font-size: 16px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.3); }
+    .notice .text a {
+      font-weight: bold; }
